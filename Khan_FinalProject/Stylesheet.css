@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+/* Html and Body styles */
+
+html {
+    background-color: rgb(221, 221, 221);
+}
+
+body {
+    color: black;
+    background-color: rgb(214, 205, 205);
+    font-family: 'Palatino Linotype', 'Book Antiqua', Falatino, serif;
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+
+h1 {
+    color: black;
+    background-color: rgb(214, 205, 205);
+    font-size: 35px;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+body>nav li {
+    width: 25%;
+    padding-right: 0px;
+}
+
+body>header>img {
+    width: 100%;
+    height: 100%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+p {
+    text-align: left;
+}
+
+article#project1 h2 {
+    text-align: left;
+    padding-left: 30px;
+    color: black;
+    font-family: cursive;
+    font-size: 26px;
+}
+
+article#project2 h3 {
+    padding-left: 30px;
+    font-family: cursive;
+    font-family: 26px;
+}
+
+article#project p {
+    text-align: center;
+    padding-right: 0px;
+}
+
+
+/* Footer styles */
+
+footer {
+    color: gray;
+    background-color: ivory;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    line-height: 30px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 1in;
+}
+
+
+/* aside and blockqoute styles */
+
+aside blockquote {
+    color: ivory;
+}
+
+
+/* Navigation Styles */
+
+nav>ul {
+    line-height: 2em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav {
+    font-size: 0.8em;
+    color: white;
+    text-align: center;
+}
+
+nav li {
+    float: left;
+    display: block;
+}
+
+nav li a {
+    color: ivory;
+}

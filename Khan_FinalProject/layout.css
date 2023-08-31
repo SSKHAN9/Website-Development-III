@@ -1,0 +1,38 @@
+@charset "UTF-8";
+html {
+    padding: 0px 0px 0px 0px;
+    height: 100%;
+}
+
+body {
+    border-width: 1px;
+    margin: 0px 151.7px;
+    padding: 0px 0px 0px 0px;
+    min-height: 100%;
+}
+
+h1 {
+    margin: 20px 0px 20px 10px;
+}
+
+p {
+    margin: 50px;
+    padding-right: 400px;
+}
+
+body>article#home img {
+    float: right;
+    width: 400px;
+}
+
+body>article#email ul {
+    list-style-image: url(email.png);
+}
+
+body>article#phone ul {
+    list-style-image: url(phone.png);
+}
+
+body>article#about img {
+    float: right;
+}
